@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.yey.library_wry.WaterRippleY
+        android:id="@+id/wry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:wry_alpha_reduce="10"
+        app:wry_circle_radius_add="6"
+        app:wry_paint_width="0.5" />
+</LinearLayout>

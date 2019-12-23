@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaterRippleY">
+        <!--        透明度递减,由100到0,代表每次递减值-->
+        <attr name="wry_alpha_reduce" format="integer" />
+        <!--        圆半径递增, 代表每次递增值-->
+        <attr name="wry_circle_radius_add" format="integer" />
+        <!--        画笔宽度是圆半径多少倍,范围为0-1之间-->
+        <attr name="wry_paint_width" format="float" />
+    </declare-styleable>
+
+
+</resources>
